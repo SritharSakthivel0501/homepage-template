@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    
+}
+* {
+    font-family: 'Roboto', sans-serif;   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+.header-nav{
+    position: fixed;
+    z-index: 3;
+    min-width: 100%;
+}
+.nav-menu-ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu-ul a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.header-banner{
+    position: relative;
+    border-bottom: 30px solid;
+    font-size: 0;
+    border-image: linear-gradient(to right, #053e8b, #00a2c8) 1;
+}
+.banner-text{
+    position: absolute;
+    top: 83px;
+    left: 88px;
+    color: white;
+    width: 330px;
+    height: 42px;
+    z-index: 2;
+    font-size: 15px
+}
+.banner-text h2{
+    font-size: 40px;
+}
+.banner-img{
+    width: 100%;
+    height: 511px; 
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.tech-types{
+    display: flex;
+    justify-content: center;
+}
+.image-box img{
+    width: 80%;
+    height: 105%;
+    margin-left: 124px;
+}
+.side-heading{
+    margin-left: 142px;
+    padding: 15px;
+}
+.image-box{
+    position: relative;
+}
+.inner-content{
+    position: absolute;
+    top: 156px;
+    left: 680px;
+    color: rgb(2, 2, 2);
+    width: 416px;
+    height: 167px;
+    z-index: 2;
+    font-size: 15px;
+}
+.patent{
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: first baseline;
+
+}
+.portfolio-img img{
+    width: 390px;
+    height: 210px;
+    padding-left: 150px;
+}
+.portfolio-description{
+    justify-content: center;
+    width: 500px;
+    height: 10px;
+    padding-left: 67px;
+}
+/* .patent-portfolio{
+    padding: 50px;
+} */
+.card-container{
+    display: flex;
+}
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+tr{
+    background-color: #caced3;
+}
+table tr:nth-child(odd){
+    background-color: white;
+}
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;   
+
+}
+.note{
+    text-align: center;
+}
+.table-content {
+    width: 50%;
+    margin-left: 290px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+th{
+    background-color: #022553;
+}
+iframe.mapi {
+    width: 30rem;
+    height: 240px;
+    margin-left: 674px;
+    margin-top: -182px;
+}
+.contact-description {
+    width: 30rem;
+    padding-left: 100px;
+}
+.onecolor{
+    margin-top: 60px;;
+    background-color: #031e42;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-image: linear-gradient(to right, #053e8b, #00a2c8) 1;
+}
+.side-heading{
+    margin-top: 70px;
+    height: 10px;
+    border-left: solid blue;
+}
+footer{
+    background-color: #031e42;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.linediv{
+    height: 5px;
+    background-image: linear-gradient(45deg, #053e8b, #00a2c8);
+}
+/* .card-box{
+    display: flex;
+    align-items: center;
+    border: solid rgb(209, 207, 209);
+    border-radius: 4px;
+    margin-right: 50px;
+    padding: 0px 0px 0px 0px;
+}
+/* .card-details{
+    margin-left: 60px;
+} */
+/* .card-img{
+    background-color: rgb(223, 223, 223);
+    padding: 21px 20px 20px 20px;
+} */ */
+li{
+    list-style: none;
+}
+.portfolio-benefits p{
+    margin-left: 50px;
+}
+.card-container{
+    margin: 60px;
+}
+.tech-type-ul li{
+    display: flex;
+    align-items: center;
+}
+.card-box{
+    display: flex;
+    width: 30%;
+    border: solid 1px rgb(209, 207, 209);
+    border-radius: 5px;
+    margin-top: 18px ;
+    
+}
+.card-img{
+    background-color: whitesmoke;
+    padding: 30px 21px 21px 21px;
+}
+
+.card-container{
+    display: flex;
+    margin: 110px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.note{
+    font-style: italic;
+}
+p.title-text {
+    margin-left: 30px;
+}
+.portfolio{
+    margin-left: 120px;
+    font-weight: 800;
+}
+.thaitel{
+    margin-left: 120px;
+    font-weight: 800;
+    margin-top: -58px;
+    margin-bottom: -80px;
+}
+.side-heading-one{
+    margin-top: 70px;
+    height: 6px;
+    border-left: solid blue;
+    margin-left: -3px;
+    padding: 15px;
+}
